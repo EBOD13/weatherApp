@@ -194,14 +194,9 @@ map_button = ctk.CTkButton(main_frame, text=None, image=map_photo, width=45, hei
 map_button.bind('<Button-1>', bigger)
 map_button.place(relx=0.18, rely=0.955, anchor='e')
 
-
-# ------------------------ GETTING THE ICON INFORMATION --------------------------------
 # ------------------- Main App Loop -----------------
 
 def update():
-    # listing_range = random.randrange(len(Affirmations.positive_affirmations))
-    # aff.configure(text=Affirmations.positive_affirmations[listing_range])
-    # scrollable_frame.configure(width=int(main_frame.winfo_screenwidth() / 5))
     main_frame.after(5000, update)
 
 
