@@ -34,8 +34,6 @@ def update():
     global searching_label
     y = -0.38
     search_box.after(500, update)
-
-    API = "AIzaSyCu7nYsBLUrqwYMTohOJFdJD0bCdcCUrlM"
     CITY = search_box.get()
     MAIN_URL = f'https://maps.googleapis.com/maps/api/place/autocomplete/json?input={CITY}&types=geocode&language=en&key={API}'
     cityResults = []
