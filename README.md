@@ -8,6 +8,7 @@ Certainly! Here's a simple README.md file for your Git repository:
 The Weather App is a Python application that provides current weather information and forecasts for a given location. It fetches weather data from the [WeatherAPI](http://api.weatherapi.com/) and provides various weather-related details.
 
 ## Features
+![Weather 9_22_2023 5_49_29 PM](https://github.com/EBOD13/weatherApp/assets/74140112/549abea6-d734-4e1e-bb14-ae88987031b6)
 
 - Display of current temperature, condition, and location.
 - Daily weather forecast for the next seven days.
