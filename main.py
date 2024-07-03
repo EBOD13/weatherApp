@@ -32,6 +32,7 @@ class WeatherApp:
         self.main_frame = ctk.CTkFrame(self.app, height=self.height, width=self.width, fg_color=self.main_fg_color)
         self.main_frame.pack()
 
+        # Get the current latitude and longitude of the user user their IP address
         geocode = geocoder.ip('me')
         if geocode.ok:
             global location_lat, location_long
