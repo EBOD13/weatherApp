@@ -20,7 +20,7 @@ The Weather App is a Python application that provides current weather informatio
 
 To run the Weather App, you need the following:
 
-- Python 3.x
+- Python 3.7 or higher
 - Required Python libraries (tkinter, customtkinter, geocoder, requests, pandas, PIL)
 - WeatherAPI API key
 - Ninja API key (for inspirational quotes)
